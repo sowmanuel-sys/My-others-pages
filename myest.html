@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>My Others Pages</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon (logo dans l’onglet du navigateur) -->
+    <link rel="icon" type="image/png" href="lg2.png">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        /* ===== RESET ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+
+        .container {
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+            padding: 30px;
+            background: #111;
+            border-radius: 20px;
+            box-shadow: 0 0 25px rgba(0,0,0,0.6);
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 3px solid white;
+        }
+
+        /* ===== Titre avec logo ===== */
+        .title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .title-logo {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            box-shadow: 0 0 15px rgba(255,255,255,0.7);
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #bbb;
+            margin-bottom: 25px;
+        }
+
+        .link-btn {
+            display: block;
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .youtube {
+            background: #ff0000;
+            color: white;
+        }
+
+        .instagram {
+            background: #e1306c;
+            color: white;
+        }
+
+        .tiktok {
+            background: #000;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .link-btn:hover {
+            transform: scale(1.05);
+            opacity: 0.9;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #666;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <img src="me.jpeg" alt="Avatar" class="avatar">
+
+        <!-- Titre avec logo -->
+        <div class="title">
+            <img src="mcking.png" alt="Logo" class="title-logo">
+            <h1>Follow-me 👑</h1>
+        </div>
+
+        <p>Find me on my social media</p>
+
+        <a href="https://youtube.com/@ytmcking?si=hSkRzOZonhQdQBMJ" target="_blank" class="link-btn youtube">
+            🎥 YouTube
+        </a>
+
+        <a href="https://www.instagram.com/mr.mhem?igsh=N29xdDN3eDlvYjM3" target="_blank" class="link-btn instagram">
+            📸 Instagram
+        </a>
+
+        <a href="https://tiktok.com/@ttmc_king" target="_blank" class="link-btn tiktok">
+            🎵 TikTok
+        </a>
+
+        <footer>
+            © 2026 - All rights reserved
+        </footer>
+    </div>
+
+</body>
+</html>
